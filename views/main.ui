@@ -12,18 +12,32 @@
   </property>
   <property name="minimumSize">
    <size>
-    <width>600</width>
-    <height>600</height>
+    <width>0</width>
+    <height>0</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>600</width>
-    <height>600</height>
+    <width>16777215</width>
+    <height>16777215</height>
    </size>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">.menuLateral{
+border-radius: 20 px;
+border-bottom:1px solid rgb(85, 0, 127);
+}
+
+.menuLateral:hover{
+background-color: rgb(85,0, 127);
+}
+</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QHBoxLayout" name="horizontalLayout">
@@ -85,11 +99,17 @@
              <height>16777215</height>
             </size>
            </property>
+           <property name="cursor">
+            <cursorShape>OpenHandCursor</cursorShape>
+           </property>
            <property name="styleSheet">
             <string notr="true">background-color: #f5f5fb;</string>
            </property>
            <property name="text">
             <string>Flower🌸</string>
+           </property>
+           <property name="class" stdset="0">
+            <string>menuLateral</string>
            </property>
           </widget>
          </item>
@@ -101,11 +121,17 @@
              <height>16777215</height>
             </size>
            </property>
+           <property name="cursor">
+            <cursorShape>OpenHandCursor</cursorShape>
+           </property>
            <property name="styleSheet">
             <string notr="true">background-color: #f5f5fb;</string>
            </property>
            <property name="text">
             <string>Vase🥛</string>
+           </property>
+           <property name="class" stdset="0">
+            <string>menuLateral</string>
            </property>
           </widget>
          </item>
@@ -117,11 +143,17 @@
              <height>16777215</height>
             </size>
            </property>
+           <property name="cursor">
+            <cursorShape>OpenHandCursor</cursorShape>
+           </property>
            <property name="styleSheet">
             <string notr="true">background-color: #f5f5fb;</string>
            </property>
            <property name="text">
             <string>Leaf🍂</string>
+           </property>
+           <property name="class" stdset="0">
+            <string>menuLateral</string>
            </property>
           </widget>
          </item>
@@ -133,11 +165,17 @@
              <height>16777215</height>
             </size>
            </property>
+           <property name="cursor">
+            <cursorShape>OpenHandCursor</cursorShape>
+           </property>
            <property name="styleSheet">
             <string notr="true">background-color: #f5f5fb;</string>
            </property>
            <property name="text">
             <string>Ribbon🎀</string>
+           </property>
+           <property name="class" stdset="0">
+            <string>menuLateral</string>
            </property>
           </widget>
          </item>
@@ -149,11 +187,17 @@
              <height>16777215</height>
             </size>
            </property>
+           <property name="cursor">
+            <cursorShape>OpenHandCursor</cursorShape>
+           </property>
            <property name="styleSheet">
             <string notr="true">background-color: #f5f5fb;</string>
            </property>
            <property name="text">
             <string>Card💳</string>
+           </property>
+           <property name="class" stdset="0">
+            <string>menuLateral</string>
            </property>
           </widget>
          </item>
@@ -165,11 +209,17 @@
              <height>16777215</height>
             </size>
            </property>
+           <property name="cursor">
+            <cursorShape>OpenHandCursor</cursorShape>
+           </property>
            <property name="styleSheet">
             <string notr="true">background-color: #f5f5fb;</string>
            </property>
            <property name="text">
             <string>Gift🎁</string>
+           </property>
+           <property name="class" stdset="0">
+            <string>menuLateral</string>
            </property>
           </widget>
          </item>
